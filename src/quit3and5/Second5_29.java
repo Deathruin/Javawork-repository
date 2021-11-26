@@ -42,18 +42,18 @@ public class Second5_29 {
 	public static String getMonthName(int month) {
 		String monthName = "";
 		switch(month) {
-			case 1: monthName = "January"; break;
-			case 2: monthName = "February"; break;
-			case 3: monthName = "March"; break;
-			case 4: monthName = "April"; break;
-			case 5: monthName = "May"; break;
-			case 6: monthName = "June"; break;
-			case 7: monthName = "July"; break;
-			case 8: monthName = "August"; break;
-			case 9: monthName = "September"; break;
-			case 10: monthName = "October"; break;
-			case 11: monthName = "November"; break;
-			case 12: monthName = "December";
+			case 1: monthName = "一月"; break;
+			case 2: monthName = "二月"; break;
+			case 3: monthName = "三月"; break;
+			case 4: monthName = "四月"; break;
+			case 5: monthName = "五月"; break;
+			case 6: monthName = "六月"; break;
+			case 7: monthName = "七月"; break;
+			case 8: monthName = "八月"; break;
+			case 9: monthName = "九月"; break;
+			case 10: monthName = "十月"; break;
+			case 11: monthName = "十一月"; break;
+			case 12: monthName = "十二月";
 		}
 		
 		return monthName;
@@ -65,7 +65,7 @@ public class Second5_29 {
 		
 		System.out.println("-----------------------------");
 		
-		System.out.println(" Sun Mon Tue Wed Thu Fri Sat");
+		System.out.println("   日  一  二  三  四  五  六");
 	}
 	
 	public static int printMonthBody(int whatDay, int month, int year) {
